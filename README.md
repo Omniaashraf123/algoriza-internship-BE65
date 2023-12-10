@@ -4,11 +4,11 @@ backend
 
 Prerequisites
 
-.NET 5.0
+1- .NET 5.0
 
-SQL-Server
+2- SQL-Server
 
-SSMS
+3- SSMS
 
 To Start
 
