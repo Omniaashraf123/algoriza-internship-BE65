@@ -40,27 +40,35 @@ thunderclient Log
 1. POST login
 
 https://localhost:5001/api/authenticate
+
 2. GET all_users
 
 https://localhost:5001/api/authenticate
+
 3. GET first_user
 
 https://localhost:5001/api/administration/1
+
 4. POST create_user
 
 https://localhost:5001/api/authenticate
+
 5. DELETE first_user
 
 https://localhost:5001/api/authenticate/1
+
 1. GET all_drugs
 
 https://localhost:5001/api/drugs/
+
 2. GET drugs_by_id
 
 https://localhost:5001/api/drugs/id-1
+
 3. GET drugs_by_name
 
 https://localhost:5001/api/drugs/name-sinarest
+
 4. POST drugs
 
 https://localhost:5001/api/drugs/
@@ -73,12 +81,15 @@ https://localhost:5001/api/drugs/
   "location": "pune",
   "userId":1
 }
+
 1. GET all_orders_by_order
 
 https://localhost:5001/api/order/order
+
 2. GET all_orders_by_drug
 
 https://localhost:5001/api/order/drug
+
 1. POST order
 
 https://localhost:5001/api/products/1
@@ -93,9 +104,11 @@ https://localhost:5001/api/products/1
   "UserId":"1",
   "DrugId":"1"
 }
+
 1. GET all_messages
 
 https://localhost:5001/api/contactus/
+
 1. GET first_messages
 
 https://localhost:5001/api/contactus/1
